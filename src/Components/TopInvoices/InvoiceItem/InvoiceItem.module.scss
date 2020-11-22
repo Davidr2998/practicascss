@@ -1,0 +1,38 @@
+.o_item_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 0px;
+  p {
+    margin: 0;
+  }
+
+  h3 {
+    margin: 5px 0;
+    font-size: 1.5rem;
+  }
+
+  .o_description {
+    color: #ababab;
+  }
+
+  .o_revenue_container {
+    display: flex;
+  }
+
+  .o_range_container {
+    background-color: #f5f5f5;
+    height: 20px;
+    width: 12rem;
+    border-radius: 5px;
+    margin: 14px 15px 10px 0;
+
+    .o_range_content {
+      height: 100%;
+      width: 30%;
+      background-color: #212121;
+      border-bottom-left-radius: 5px;
+      border-top-left-radius: 5px;
+    }
+  }
+}
