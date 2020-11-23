@@ -1,0 +1,27 @@
+.o_nav_option {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.o_nav_option_green {
+  background-color: #d1ffd5;
+}
+
+.o_nav_option_blue {
+  background-color: #c0e8ff;
+}
+
+.o_nav_option_disabled {
+  opacity: 35%;
+}
+
+.o_nav_option img {
+  width: 10px;
+}
