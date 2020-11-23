@@ -1,13 +1,15 @@
 import React from "react";
 import Expenses from "./Expenses/Expenses";
-import "../Profit/Profit.css"
+import TotalProfit from "./TotalProfit/TotalProfit";
+import style from "../Profit/Profit.module.scss";
 
-function Profit() { 
-    return(
-        <div className="o-profit-container">
-            <Expenses></Expenses>
-        </div>
-    );
+function Profit() {
+  return (
+    <div className={style.o_profit_container}>
+      <TotalProfit></TotalProfit>
+      <Expenses></Expenses>
+    </div>
+  );
 }
 
 export default Profit;
