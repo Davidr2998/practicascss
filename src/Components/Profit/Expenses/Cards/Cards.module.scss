@@ -1,0 +1,67 @@
+.o_card_container {
+  width: 155px;
+  height: 13rem;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.o_card_container_green {
+  background-image: url("Card_1.png");
+}
+
+.o_card_container_blue {
+  background-image: url("Card_2.png");
+}
+
+.o_card_container_lillac {
+  background-image: url("Card_3.png");
+}
+
+.o_price {
+  height: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.o_price h3 {
+  font-size: 17px;
+}
+
+.o_price h3::after {
+  content: "00";
+  font-size: 11px;
+}
+
+h5 {
+  font-weight: normal;
+}
+
+.o_img_clip {
+  width: 17px;
+  height: 17px;
+  margin-top: 1.2rem;
+}
+
+.o_date {
+  margin: 0 1.5rem 0 1.5rem;
+  font-size: 13px;
+}
+
+.o_icon_container {
+  width: 6rem;
+  height: 4rem;
+  margin-left: 1.5rem;
+  margin-top: 3rem;
+}
+
+.o_icon_container h3 {
+  font-weight: normal;
+  font-size: 14px;
+  margin-top: 0;
+}
+
+.o_img_icon {
+  width: 35px;
+  height: 35px;
+}
