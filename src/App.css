@@ -16,3 +16,9 @@ body {
   display: flex;
   flex-direction: row;
 }
+
+.o-left-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 0 30px;
+}
