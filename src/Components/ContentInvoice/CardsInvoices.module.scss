@@ -1,0 +1,78 @@
+.o_card_container {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fafafa;
+  border-radius: 1rem;
+}
+
+.o_top_card {
+  display: flex;
+  margin-left: 2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.o_top_text {
+  margin-top: 0rem;
+  margin-left: 1.5rem;
+}
+
+.o_text {
+  color: #9c9c9c;
+  font-weight: normal;
+  font-size: 16px;
+  margin: 0rem;
+}
+
+.o_difer_text {
+  color: #2f2f2f;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.o_down_text {
+  display: flex;
+  justify-content: space-around;
+}
+
+.o_vertical {
+  height: 85px;
+  width: 1px;
+  background-color: #12715a;
+}
+
+.o_vertical_orange {
+  height: 85px;
+  width: 1px;
+  background-color: #eb9d2e;
+}
+
+.o_line {
+  width: 70%;
+  background-color: #ebebeb;
+  height: 1px;
+  border: 0;
+}
+
+.o_vertical_op {
+  height: 85px;
+  width: 1px;
+  background-color: #7f9d93;
+}
+
+.o_text_down {
+  color: #2f2f2f;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.o_difer_text_down {
+  color: #2f2f2f;
+  font-size: 16px;
+  font-weight: 600;
+}

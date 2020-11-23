@@ -1,0 +1,20 @@
+.o_img_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 325px;
+    height: 260px;
+    background-size: 325px 260px;
+    background-image: url("img1.png");
+    margin-left: 1.5rem;
+    margin-top: .5rem ;
+
+
+}
+
+.o_img_container h1{
+    color: white;
+    font-size: 18px;
+    padding-left: 1.5rem;
+    padding-bottom: 1rem;
+}
